@@ -1,0 +1,19 @@
+name: Lint
+on: [push, pull_request]
+jobs:
+  lint-it:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v9
+        with:
+          command: config
+          globs: |
+            .markdownlint.json
+            **/*.md
+      - uses: tbroadley/spellchecker-cli-action@v1
+        with:
+          dictionaries: '.github/dictionary.txt'
+          files: '*.md'
