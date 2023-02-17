@@ -108,6 +108,12 @@ Until we find the official ruling, take any of these and apply them to your enti
       1. shuffle the dungeon deck and the discard pile together
 5. If you need to draw from a dungeon deck, but the deck is empty. if the discard pile is not empty: reshuffle it as if it was the end of the game turn
 
+## Enchantment
+
+1. Can be applied to weapons, items or armor
+2. Enchantment of the same type can stack (as in you can have multiple of the same type)
+   1. A few enchantments do not make sense to be stacked. In this case when drawing enchantments then redraw
+
 ## `Enchant an item` keyword
 
 1. Treat this as an enchant action on the market without the cost for the first (or first two in case of Enchanting) card drawn
@@ -231,6 +237,13 @@ Until we find the official ruling, take any of these and apply them to your enti
    1. 1-3 a circle
    2. 4-5 a triangle
    3. 6 a diamond
+
+## Soul Trap
+
+1. Can be applied on weapons and items using enchantments
+2. Can not be applied to armor
+3. Triggers only if the item it is applied to is equipped when dealing the final damage to the enemy
+4. If your followers or summons deal the final damage the effect is not activated
 
 ## Stronghold
 
